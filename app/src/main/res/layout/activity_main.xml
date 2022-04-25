@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#09021C"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="65dp"
+        app:srcCompat="@drawable/logo_arq" />
+
+    <EditText
+
+        android:id="@+id/editTextTextDocumento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/usuario"
+        android:inputType="textPersonName"
+        android:textColor="#C8BFBF"
+        android:textColorHint="#FAF9F9"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/editTextTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:hint="@string/contrasena"
+        android:inputType="numberPassword"
+        android:textAlignment="viewStart"
+        android:textColor="#C8BFBF"
+        android:textColorHighlight="#FAF6F6"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FAF4F4"
+
+        android:textSize="20sp"
+        android:textStyle="normal" />
+    <Button
+        android:id="@+id/btnEStadistica"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:backgroundTint="#FF9800"
+        android:text="@string/iniciarsesion"
+        android:layout_marginBottom="24dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#FF9800"
+        android:text="@string/registro_1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/btnAyuda"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#FF9800"
+        android:text="@string/ayuda_1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

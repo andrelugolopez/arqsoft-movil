@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Arq-Soft</string>
+
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+
+
+
+
+    <string name="datos_personales">Datos personales</string>
+    <string name="documento">Documento</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="edad">Edad</string>
+    <string name="telefono">Teléfono</string>
+    <string name="Direccion">Dirección</string>
+    <string name="materias_notas">Materias / Notas</string>
+    <string name="materia_1">Materia 1</string>
+    <string name="nota_1">Nota 1</string>
+    <string name="materia_2">Materia 2</string>
+    <string name="nota_2">Nota 2</string>
+    <string name="materia_3">Materia 3</string>
+    <string name="nota_3">Nota 3</string>
+    <string name="materia_4">Materia 4</string>
+    <string name="nota_4">Nota 4</string>
+    <string name="materia_5">Materia 5</string>
+    <string name="nota_5">Nota 5</string>
+    <string name="btn_registrar">REGISTRAR</string>
+
+
+    <string name="mis_peque_os_saltamontes">Mis Pequeños Saltamontes</string>
+    <string name="registro_1">REGISTRO</string>
+    <string name="iniciarsesion">INICIAR SESION</string>
+    <string name="ayuda_1">AYUDA</string>
+    <string name="autor">De SATIC.2022</string>
+
+
+    <string name="ayuda_Principal">Información Del Sistema</string>
+    <string name="btn_atras">Atras</string>
+    <string name="Titulo">Bienvenid@ a nuestra aplicacion de calificaciones\n</string>
+    <string name="informacion">
+        \nEl programa permite llevar un registro de estudiantes y el estado de estos en cuanto a las notas obtenidas en cada
+        materia, ingresando 5 materias en cada periodo.\n
+
+        \nSe cuenta con un menú donde podrá registrar estudiantes con sus respectivas notas y materias,
+        la opcion de filtrar las estadisticas de los estudiantes procesados, de quienes ganan, pierden y pueden recuperar el periodo.\n
+    </string>
+
+
+    <string name="resutado_titulo">Resultado</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="resultado"></string>
+
+
+
+    <string name="titulo_estadistica">Lista de estudiantes</string>
+    <string name="titulo_resumen">Resumen</string>
+    <string name="ganan">Ganan</string>
+    <string name="pierden">Pierden</string>
+    <string name="procesados">Procesados</string>
+    <string name="recuperan">Recuperan</string>
+
+
+</resources>
+
